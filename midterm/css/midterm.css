@@ -1,0 +1,142 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #aad4cf; /* Background color */
+    color: black; /* Text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header with background image and title overlay */
+header {
+    position: relative;
+    text-align: center;
+    color: black;
+    background-color: #d4e9e7;
+}
+
+.header-image {
+    width: 100%;
+    height: auto;
+    opacity: 0.5; /* Slight transparency for the background image */
+}
+
+.site-title {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Navigation links */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Article Section */
+.story {
+    background-color: #d4e9e7;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.story h2 {
+    color: black;
+}
+
+.story-image {
+    float: left;
+    width: 200px;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+/* Facts Section */
+.facts {
+    background-color: #d4e9e7;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.facts h3 {
+    color: black;
+}
+
+.facts ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Contact Form */
+.contact {
+    background-color: #d4e9e7;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact h3 {
+    color: black;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.contact button:hover {
+    background-color: #333;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #aad4cf;
+    font-size: 0.8em;
+    color: black;
+}
